@@ -1,0 +1,47 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.bloqueUno{
+    padding: 15px;
+    background-color: rgb(9, 9, 189);
+}
+
+.bloqueDos{
+    background-image: url(/TP_Final/IMAGES/agua_pileta.jpg);
+    
+}
+
+.elementoUno{
+    background-color: #DAB785;
+    padding: 20px;
+}
+
+.form{
+    background-color: #8EFFC5;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left:200px;
+    margin-right: 200px;
+    padding: 20px;
+}
+
+.elementoDos{
+    padding-top: 30px;
+    padding-left: 160px;
+    background-color: #04395E;
+    color: white;
+ 
+}
+
+.elementoDos img{
+    width: 150px;
+    height: 150px;
+    padding: 20px
+}
+
+
+
+ul{
+    list-style: none;
+}
