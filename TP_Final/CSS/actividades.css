@@ -1,16 +1,55 @@
 .navbar{
-    background-color:rgb(9, 9, 189)" ;
+    background-color:#042037;
 }
+
 .margenes{
     margin: 30px;
 }
 .carouselExampleControls{
     width: 30px;
     height: 30px;
-    background-position: center center;
+    background-position: center;
   background-repeat: no-repeat;
   background-color: #000;
 }
-.margen card {
-    margin-left: auto;
+.textonav{
+    background-color: rgb(233, 222, 222);
+    padding: 25px;
+    font-size: 18px
+}
+body{
+    background-image: url(/Las-Flores-FullStack/TP_Final/IMAGES/agua_pileta.jpg);
+}
+h1{
+    background-color:#489174;
+    color:#003A23;
+    padding: 20px;
+    text-align: center;
+}
+
+.caja-texto-expansible{
+   
+    background-color: #5ddfab;
+   padding: 30px;
+   margin-right: 200px;
+   margin-left: 200px;
+   border: solid 3px #042037;
+   border-radius: 5px ;
+   box-shadow: 3px 3px 6px #042037;
+}
+footer{
+    padding-bottom:30px ;
+    background-color: #0A093B;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+
+
+}
+#footer-logo{
+    width:150px ;
+    height: 150px;
+    padding: 20px;
 }
