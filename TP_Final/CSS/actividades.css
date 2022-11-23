@@ -1,0 +1,16 @@
+.navbar{
+    background-color:rgb(9, 9, 189)" ;
+}
+.margenes{
+    margin: 30px;
+}
+.carouselExampleControls{
+    width: 30px;
+    height: 30px;
+    background-position: center center;
+  background-repeat: no-repeat;
+  background-color: #000;
+}
+.margen card {
+    margin-left: auto;
+}
