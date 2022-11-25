@@ -5,10 +5,10 @@ btn.addEventListener("click", function () { return desplegarTexto(); });
 function desplegarTexto() {
     if (texto.classList.toggle("texto-oculto")) {
         texto.classList.add("mostrar-texto");
-        btn.innerText = "Leer Mas";
+        btn.innerText = "Leer mas";
     }
     else {
-        btn.innerText = "Leer Menos";
+        btn.innerText = "Leer menos";
         texto.classList.remove("mosrear-texto");
     }
 }

@@ -17,32 +17,6 @@ body {
     padding: 20px;
 }
 
-
-.container{
-    display: grid;
-    height: 100vh;
-    place-content: center;
-}
-
-.form-container{
-    display: grid;
-    row-gap: .5rem;
-    width: 50vw;
-    justify-content: center;
-    background-color:#8EFFC5 ;
-    padding: 1rem;
-    border-radius: 5px;
-    box-shadow: 2px 2px 5px #003A23;
-}
-
-.form-container input, textarea{
-    padding: 10px;
-    border-radius: 5px;
-    box-shadow: 3px 3px 6px #003A23;
-}
-
-
-
 .form {
     background-color: #8EFFC5;
     margin-top: 30px;
@@ -54,6 +28,30 @@ body {
     border-radius: 10px;
     box-shadow: 6px 6px 12px #003A23;
 }
+
+.form input,
+textarea {
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 6px #003A23;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+}
+
+#alerta {
+    color: red;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+.btn {
+    margin-top: 8px;
+}
+
 
 .flotante {
     display: scroll;

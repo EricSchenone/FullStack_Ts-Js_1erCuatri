@@ -1,62 +1,66 @@
-*{
+* {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-body{
+body {
     background-image: url(/TP_Final/IMAGES/agua_pileta.jpg);
 }
 
-h1{
+h1 {
     color: #003A23;
-    background-color:#489174 ;
+    background-color: #489174;
     padding: 20px;
 }
 
-.navbar{
+.navbar {
     background-color: #2A4F6E;
 }
 
-.container-fluid{
+.nav-item {
+    margin: 25px
+}
+
+.container-fluid {
     background-color: #042037;
     padding-top: 20px;
     padding-bottom: 20px;
     font-size: large;
 }
 
-.carousel-inicio{
+.carousel-inicio {
     background-color: #489174;
     padding: 5px;
     width: 800px;
     height: 550px;
     margin-top: 50px;
     margin-left: 280px;
-    border-radius: 5px; 
+    border-radius: 5px;
 }
 
-.flotante{
-    display:scroll;
-    position:fixed;
-    bottom:30px;
-    right:40px;  
+.flotante {
+    display: scroll;
+    position: fixed;
+    bottom: 30px;
+    right: 40px;
 }
 
-.flotante img{
+.flotante img {
     width: 70px;
     height: 70px;
 }
 
-h2{
+h2 {
     color: #003A23;
-    background-color:#489174 ;
+    background-color: #489174;
     padding: 20px
 }
 
-.caja-texto{
+.caja-texto {
     margin-right: 200px;
     margin-left: 200px;
     margin-bottom: 30px;
     padding: 20px;
-    background-color: #5ddfab ;
+    background-color: #5ddfab;
     display: flex;
     border: solid 3px #042037;
     border-radius: 5px;
@@ -64,18 +68,18 @@ h2{
 }
 
 
-.caja-texto img{
+.caja-texto img {
     margin-right: 30px;
 }
 
-.contenedor-tabla{
+.contenedor-tabla {
     color: #0A093B;
     background-color: #8180B2;
     padding: 20px;
     text-align: center;
 }
 
-table{
+table {
     width: 400px;
     margin-left: 450px;
     justify-content: center;
@@ -83,29 +87,30 @@ table{
     background-color: #1B1A59;
 }
 
-th, td{
+th,
+td {
     padding: 15px;
     font-weight: bold;
 }
 
-footer{
+footer {
     padding-top: 30px;
     padding-left: 160px;
     background-color: #0A093B;
     color: white;
 }
 
-footer img{
+footer img {
     width: 150px;
     height: 150px;
     padding: 20px;
 }
 
-ul{
+ul {
     list-style: none;
 }
 
-.fotos-pie{
+.fotos-pie {
     margin-top: 30px;
     margin-bottom: 30px;
     margin-left: 15px;
@@ -114,7 +119,7 @@ ul{
     justify-content: space-between;
 }
 
-.fotos-pie img{
+.fotos-pie img {
     border: solid 2px #0A093B;
     border-radius: 5px;
     box-shadow: 3px 3px 6px #042037;

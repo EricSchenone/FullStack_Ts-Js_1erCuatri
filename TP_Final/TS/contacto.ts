@@ -1,19 +1,26 @@
 "use stricct"
 
-const nombreUsuario = document.getElementById("nombre") as HTMLInputElement;
-const apellidoUsuario = document.getElementById("apellido") as HTMLInputElement;
-const mail = document.getElementById("mail") as HTMLInputElement;
-const telefono = document.getElementById("telefono") as HTMLInputElement;
-const celular = document.getElementById("cel") as HTMLInputElement;
-const mensaje = document.getElementById("mensaje") as HTMLInputElement;
-const boton = document.getElementById("btn") as HTMLButtonElement;
+const formElement = document.getElementById("form") as HTMLFormElement;
+const inputs = document.querySelectorAll("input");
+const consulta = document.getElementById("mensaje") as HTMLTextAreaElement;
+const alerta = document.getElementById("alerta") as HTMLParagraphElement;
 
-console.log(telefono.value);
-boton.addEventListener("click", capturarDatos)
+formElement.addEventListener("submit", capturarDatos)
 
-function capturarDatos() {
-    
+function capturarDatos(e: SubmitEvent) {
+    e.preventDefault();
+    for (let i: number = 0; i < inputs.length - 1; i++) {
+        if(inputs[i].value == "" || consulta.value == "") {
+        alerta.innerHTML = "Debe completar todos los campos. *";     
+        }else{
+            console.log(inputs[i].value);
+            alerta.innerHTML = "";     
+        }
+    }   
+    console.log(consulta.value);  
+    formElement.reset();
 }
+
 
 
 

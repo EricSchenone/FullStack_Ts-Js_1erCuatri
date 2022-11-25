@@ -8,15 +8,12 @@ btn.addEventListener("click", () => desplegarTexto());
 function desplegarTexto():void {
     if(texto.classList.toggle("texto-oculto")){
         texto.classList.add("mostrar-texto");
-        btn.innerText = "Leer Mas"
+        btn.innerText = "Leer mas"
     }else{
-        btn.innerText = "Leer Menos"
+        btn.innerText = "Leer menos"
         texto.classList.remove("mosrear-texto")
     }
 }
-
-
-
 
 
 
