@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head> 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -26,35 +26,38 @@
         <h1>¿Queres tener más info?</h1>
         <p>Completa el siguiente formulario y nos comunicaremos a la brevedad.</p>
       </div>
+      <div class="container">
         <form id="form">
-          <div class="form-floating mb-3">
-              <input type="text" class="form-control" id="nombre" >
-              <label for="floatingInput">Nombre</label>
-            </div>
-            <div class="form-floating mb-3">
-              <input type="text" class="form-control" id="apellido" >
-              <label for="floatingInput">Apellido</label>
-            </div>
-            <div class="form-floating mb-3">
-              <input type="email" class="form-control" id="mail">
-              <label for="floatingInput">Mail</label>
-            </div>
-            <div class="form-floating mb-3">
-              <input type="text" class="form-control" id="telefono">
-              <label for="floatingInput">Teléfono</label>
-            </div>
-            <div class="form-floating mb-3">
-              <input type="text" class="form-control" id="cel">
-              <label for="floatingInput">Cel</label>
-            </div>
-            <div class="form-floating mb-3">
-              <textarea class="form-control" id="mensaje"></textarea>
-              <label for="floatingTextarea">Escriba aqui su consulta:</label>
-            </div>
-            <p id="mensaje"></p>
-            <input class="btn btn-primary" type="submit" value="Enviar">
-          </div>
+          <fieldset class="form-container">
+            <label for="nombre">
+            <input type="text"  id="nombre" >Nombre
+            </label>
+            <label for="apellido">Apellido
+              <input type="text" id="apellido" >
+            </label>        
+            <label for="mail">Mail
+              <input type="email"  id="mail">
+            </label>
+            <label for="telefono">Teléfono
+              <input type="text"  id="telefono">
+            </label>          
+            <label for="cel">Cel
+              <input type="text"  id="cel">
+            </label>
+            <label for="mensaje">Escriba aqui su consulta:
+              <textarea id="mensaje"></textarea>
+            </label>
+            <input class="btn" type="submit" value="Enviar">
+          
+          
+          
+        
+
+          </fieldset>
+          
         </form>
+
+      </div>
         <a class="flotante" href="https://api.whatsapp.com/send?phone=5491128062570">
           <img src="/TP_Final/IMAGES/icono_whatsapp_flotante.png" alt="" srcset="">
         </a>

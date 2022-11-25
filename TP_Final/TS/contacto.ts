@@ -1,11 +1,20 @@
-"use strict"
+"use stricct"
 
-const formElement = document.getElementById("form") as HTMLFormElement;
-console.log(formElement);
-const inputs = document.querySelectorAll("input") ;
-console.log(inputs);
-const mensaje =  document.getElementById("mensaje") as HTMLTextAreaElement;
-console.log(mensaje);
+const nombreUsuario = document.getElementById("nombre") as HTMLInputElement;
+const apellidoUsuario = document.getElementById("apellido") as HTMLInputElement;
+const mail = document.getElementById("mail") as HTMLInputElement;
+const telefono = document.getElementById("telefono") as HTMLInputElement;
+const celular = document.getElementById("cel") as HTMLInputElement;
+const mensaje = document.getElementById("mensaje") as HTMLInputElement;
+const boton = document.getElementById("btn") as HTMLButtonElement;
+
+console.log(telefono.value);
+boton.addEventListener("click", capturarDatos)
+
+function capturarDatos() {
+    
+}
+
 
 
 
