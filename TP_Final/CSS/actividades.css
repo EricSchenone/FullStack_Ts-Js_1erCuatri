@@ -1,0 +1,101 @@
+.navbar {
+    background-color: #042037;
+}
+
+.margenes {
+    margin: 30px;
+}
+
+body {
+    background-image: url(/TP_Final/IMAGES/agua_pileta.jpg);
+}
+
+h1 {
+    background-color: #489174;
+    color: #003A23;
+    padding: 20px;
+    text-align: center;
+}
+
+.titulo-carrusel {
+    color: #042037;
+    font-size: 60px;
+    font-style: oblique;
+}
+
+.titulo-carrusel-dos {
+    color: #1f98fc;
+    font-size: 60px;
+    font-style: oblique;
+}
+
+.caja-texto-expansible {
+    background-color: #5ddfab;
+    padding: 30px;
+    margin-right: 200px;
+    margin-left: 200px;
+    border: solid 3px #042037;
+    border-radius: 5px;
+    box-shadow: 3px 3px 6px #042037;
+}
+
+.boton-leer-mas {
+    background-color: #003A23;
+    border: none;
+    border-radius: 40px;
+    color: azure;
+    padding: 15px 32px;
+    font-size: 1.2em;
+    box-shadow: 0px 0px 10px 0px #003A23;
+    cursor: pointer;
+}
+
+.boton-leer-mas:hover {
+    box-shadow: none;
+    background-color: #0A093B;
+    color: #fff;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
+}
+
+.texto-oculto {
+    display: none;
+}
+
+
+
+.mostrar-texo {
+    display: block;
+}
+
+.card {
+    box-shadow: 6px 6px 12px #042037;
+}
+
+footer {
+    padding-bottom: 30px;
+    background-color: #0A093B;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.flotante {
+    display: scroll;
+    position: fixed;
+    bottom: 30px;
+    right: 40px;
+
+}
+
+.flotante img {
+    width: 70px;
+    height: 70px;
+}
+
+#footer-logo {
+    width: 150px;
+    height: 150px;
+    padding: 20px;
+}

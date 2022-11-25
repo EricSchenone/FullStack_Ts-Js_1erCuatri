@@ -1,67 +1,87 @@
-*{
+* {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-.bloqueUno{
-    color: white;
-}
 
- ul{
+
+ul {
     list-style: none;
- }
-
-.titulo{
-    text-align: center;
-    background-color: #DAB785 ;
-    padding: 15px;
 }
 
-.bloqueDos{
+h1 {
+    text-align: center;
+    background-color: #489174;
+    color: #003A23;
+    padding: 20px;
+}
+
+body {
     background-image: url(/TP_Final/IMAGES/agua_pileta.jpg);
 }
 
-.elementoUno{
+.elementoUno {
     display: flex;
     align-items: center;
     justify-content: center;
 
-    }
-
-.elementoUno img{
-    margin-top: 30px;
-
 }
 
-.elementoDos{
-    background-color: #8EFFC5;
+.elementoUno img {
+    margin-top: 30px;
+    border-radius: 10px;
+    border: solid 2px #042037;
+    box-shadow: 6px 6px 12px #042037;
+}
+
+.texto-central {
+    font-size: larger;
+    text-align: center;
+    background-color: #5ddfab;
     margin-left: 80px;
     margin-right: 80px;
-    margin-top: 20px;  
-}
- 
-.elementoTres{
-    text-align: center;
-    padding: 20px;
-    font-size: 18px;  
+    margin-top: 20px;
+    padding: 40px;
+    border: solid 5px #042037;
+    border-radius: 10px;
+    box-shadow: 6px 6px 12px #042037
 }
 
-.bloqueTres{ 
-    background-image: url(/TP_Final/IMAGES/agua_pileta.jpg);
-    background-color: transparent;
+
+.contenedor-tarjetas {
     padding: 40px;
 }
 
-.bloqueCuatro{
+.card{
+    box-shadow: 6px 6px 12px #042037;
+}
+
+.navbar {
+    background-color: #042037;
+}
+
+footer {
     padding-bottom: 30px;
-    background-color: #04395E ;
+    background-color: #0A093B;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-#logo{
+.flotante {
+    display: scroll;
+    position: fixed;
+    bottom: 30px;
+    right: 40px;
+
+}
+
+.flotante img {
+    width: 70px;
+    height: 70px;
+}
+
+#logo {
     width: 150px;
     height: 150px;
     padding: 20px;
 }
-

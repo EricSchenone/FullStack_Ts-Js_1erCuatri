@@ -1,40 +1,54 @@
-*{
+* {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.bloqueUno{
+.barra-navegacion {
     padding: 15px;
-    background-color: rgb(9, 9, 189);
+    background-color: #042037;
 }
 
-.bloqueDos{
+body {
     background-image: url(/TP_Final/IMAGES/agua_pileta.jpg);
-    
 }
 
-.elementoUno{
-    background-color: #DAB785;
+.texto {
+    background-color: #489174;
+    color: #003A23;
     padding: 20px;
 }
 
-.form{
+form {
     background-color: #8EFFC5;
     margin-top: 30px;
     margin-bottom: 30px;
-    margin-left:200px;
+    margin-left: 200px;
     margin-right: 200px;
     padding: 20px;
+    border: solid 5px #003A23;
+    border-radius: 10px;
+    box-shadow: 6px 6px 12px #003A23;
 }
 
-.elementoDos{
+.flotante {
+    display: scroll;
+    position: fixed;
+    bottom: 30px;
+    right: 40px;
+}
+
+.flotante img {
+    width: 70px;
+    height: 70px;
+}
+
+footer {
     padding-top: 30px;
     padding-left: 160px;
-    background-color: #04395E;
+    background-color: #0A093B;
     color: white;
- 
 }
 
-.elementoDos img{
+footer img {
     width: 150px;
     height: 150px;
     padding: 20px
@@ -42,6 +56,6 @@
 
 
 
-ul{
+ul {
     list-style: none;
 }
