@@ -14,6 +14,6 @@ function desplegarTexto():void {
         texto.classList.remove("mosrear-texto")
     }
 }
-
+ 
 
 
