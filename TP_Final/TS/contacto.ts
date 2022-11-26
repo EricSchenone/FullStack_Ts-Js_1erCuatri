@@ -1,4 +1,4 @@
-"use stricct"
+"use strict"
 
 const formElement = document.getElementById("form") as HTMLFormElement;
 const inputs = document.querySelectorAll("input");

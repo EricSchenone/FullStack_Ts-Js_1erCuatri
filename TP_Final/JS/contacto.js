@@ -1,4 +1,4 @@
-"use stricct";
+"use strict";
 var formElement = document.getElementById("form");
 var inputs = document.querySelectorAll("input");
 var consulta = document.getElementById("mensaje");
