@@ -46,7 +46,13 @@ body {
     margin-top: 20px;
     border: solid 2px #003A23;
     border-radius: 5px;
-    box-shadow: 3px 3px 6px #003A23;
+    box-shadow: 3px 3px 6px 3px #003A23;
+}
+fieldset .btn{
+    color: #003A23;
+    font-weight: bold;
+    border: solid 2px #003A23;
+    background-color: #5cb994;  
 }
 
 fieldset {

@@ -4,6 +4,7 @@
 
 .margenes {
     margin: 30px;
+    box-shadow: 6px 6px 12px 6px #003A23;
 }
 
 body {
@@ -55,6 +56,18 @@ h1 {
     background-color: #0A093B;
     color: #fff;
     transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
+}
+
+.flotante {
+    display: scroll;
+    position: fixed;
+    bottom: 30px;
+    right: 40px;
+}
+
+.flotante img {
+    width: 70px;
+    height: 70px;
 }
 
 .texto-oculto {
