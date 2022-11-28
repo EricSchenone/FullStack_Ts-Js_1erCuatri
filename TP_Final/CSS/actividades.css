@@ -1,3 +1,6 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 .navbar {
     background-color: #042037;
 }
@@ -16,18 +19,6 @@ h1 {
     color: #003A23;
     padding: 20px;
     text-align: center;
-}
-
-.titulo-carrusel {
-    color: #042037;
-    font-size: 60px;
-    font-style: oblique;
-}
-
-.titulo-carrusel-dos {
-    color: #1f98fc;
-    font-size: 60px;
-    font-style: oblique;
 }
 
 .caja-texto-expansible {
@@ -92,18 +83,6 @@ footer {
     padding-top: 30px;
 }
 
-.flotante {
-    display: scroll;
-    position: fixed;
-    bottom: 30px;
-    right: 40px;
-
-}
-
-.flotante img {
-    width: 70px;
-    height: 70px;
-}
 
 #footer-logo {
     width: 150px;

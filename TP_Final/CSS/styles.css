@@ -87,7 +87,7 @@ table {
     background-color: #1B1A59;
 }
 
-th,
+tr,
 td {
     padding: 15px;
     font-weight: bold;

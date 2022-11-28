@@ -18,14 +18,14 @@ body {
     background-image: url(/TP_Final/IMAGES/agua_pileta.jpg);
 }
 
-.elementoUno {
+.caja-texto-central {
     display: flex;
     align-items: center;
     justify-content: center;
 
 }
 
-.elementoUno img {
+.caja-texto-central img {
     margin-top: 30px;
     border-radius: 10px;
     border: solid 2px #042037;
